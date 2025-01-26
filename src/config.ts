@@ -1,4 +1,5 @@
 // Webchat configuration constants
+// This file is no longer used for storing the URL directly
 export const WEBCHAT_CONFIG = {
-  URL: 'https://primary-production-203b.up.railway.app/webhook/cd05b16a-bfb4-44f0-a361-26f471b8d54f/chat'
+  // URL is now managed in App.tsx
 } as const;
